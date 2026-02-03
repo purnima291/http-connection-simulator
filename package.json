@@ -1,0 +1,28 @@
+{
+  "name": "http-connection-simulator",
+  "version": "1.0.0",
+  "description": "This repository contains an experimentation to observe how HTTP connection has evolved overtime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purnima291/http-connection-simulator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/purnima291/http-connection-simulator/issues"
+  },
+  "homepage": "https://github.com/purnima291/http-connection-simulator#readme",
+  "dependencies": {
+    "@fails-components/webtransport": "^1.5.3",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "express": "^5.2.1",
+    "http2": "^3.3.6"
+  }
+}
